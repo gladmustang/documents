@@ -20,4 +20,6 @@ ow on Twitter @babeljs for news on Babel, join slack.babeljs.io for discussion/d
 
 evelopment and help support the project at opencollective.com/babel
 
-**npm install babel-preset-env --save-dev**
+**npm install babel-preset-env --save-dev **
+
+**test only**
