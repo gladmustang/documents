@@ -1,11 +1,3 @@
-​
-
-{data: {error: "These actions are forbidden."}, success: false, status: 400}
-
-​
-
-success:
-
-`{ data: { link: <THE\\\\\\\\\\_URL>}}`.
+<span style="color: rgb(226,80,65);">asdfsafsaf</span>
 
 ​
