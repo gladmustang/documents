@@ -1,4 +1,4 @@
-npm WARN deprecated babel-preset-es2015@6.24.1: We're super ? excited that you'
+npm WARN deprecated babel-preset-es2015@6.24.1: We’re super ? excited that you’
 
 re trying to use ES2015 syntax, but instead of making more yearly presets ? , Ba
 
@@ -16,9 +16,9 @@ u can ship native ES2015+ to user ? ! We are also in the process of releasing v7
 
 elp test it out in beta! Thanks so much for using Babel ?, please give us a foll
 
-ow on Twitter @babeljs for news on Babel, join slack.babeljs.io for discussion/d
+ow on Twitter @babeljs for news on Babel, join [slack.babeljs.io](http://slack.babeljs.io) for discussion/d
 
-evelopment and help support the project at opencollective.com/babel
+evelopment and help support the project at [opencollective.com/babel](http://opencollective.com/babel)
 
 **npm install babel-preset-env --save-dev**
 
