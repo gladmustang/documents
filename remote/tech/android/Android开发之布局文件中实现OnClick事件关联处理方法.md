@@ -1,0 +1,36 @@
+<span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">xml version=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"1.0"</span> <span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">encoding=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"utf-8"</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">?></span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;"><</span><span style="color: rgb(0,0,128);background-color: rgb(255,255,255);font-size: 9.6px;">LinearLayout</span> <span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">xmlns:</span><span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"</span>[<span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">http://schemas.android.com/apk/res/android</span>](http://schemas.android.com/apk/res/android)<span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:orientation=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">“vertical”</span> <span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:layout_width=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"match_parent"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:layout_height=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">“match_parent”</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">></span>
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;"><</span><span style="color: rgb(0,0,128);background-color: rgb(255,255,255);font-size: 9.6px;">Button</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:id=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"@+id/button_1"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:layout_width=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"match_parent"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:layout_height=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"wrap_content"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">android</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">:text=</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">"Click Me"</span>  
+<span style="color: rgb(102,14,122);background-color: rgb(255,255,255);font-size: 9.6px;">**android**</span><span style="color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 9.6px;">**:onClick=**</span><span style="color: rgb(0,128,0);background-color: rgb(255,255,255);font-size: 9.6px;">**"button1Click"**</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">/></span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;"></</span><span style="color: rgb(0,0,128);background-color: rgb(255,255,255);font-size: 9.6px;">LinearLayout</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">></span>
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">public class FirstActivity extends AppCompatActivity {</span>
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">@Override</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">protected void onCreate(Bundle savedInstanceState) {</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">super.onCreate(savedInstanceState);</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">setContentView(R.layout.first_layout);</span>
+
+<span style="font-size: 12px;">方法1：</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// Button button1 = (Button)findViewById(R.id.button_1);</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// button1.setOnClickListener(new View.OnClickListener(){</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// @Override</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// public void onClick(View v) {</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// Toast.makeText(FirstActivity.this, “You clicked button 1”, Toast.LENGTH_SHORT).show();</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// }</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">// });</span>  
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">}</span>
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">方法2：</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Arial;">可以在xml中定义好方法名称，在Activity中实现该方法就可以了</span> ， 这种方法更简单
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">**public void button1Click(View v) {**</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 12px;">**Toast.makeText(this, “You clicked button in attributes”, Toast.LENGTH_SHORT).show();**</span><span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">**}**</span>
+
+<span style="color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 9.6px;">}</span>
